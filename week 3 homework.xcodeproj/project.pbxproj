@@ -19,6 +19,8 @@
 		945018A51969C90B0056B983 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9450188D1969C90B0056B983 /* UIKit.framework */; };
 		945018AD1969C90B0056B983 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 945018AB1969C90B0056B983 /* InfoPlist.strings */; };
 		945018AF1969C90B0056B983 /* week_3_homeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 945018AE1969C90B0056B983 /* week_3_homeworkTests.m */; };
+		945018BB1969C9220056B983 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 945018B91969C9220056B983 /* mainViewController.m */; };
+		945018BC1969C9220056B983 /* mainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 945018BA1969C9220056B983 /* mainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		945018AA1969C90B0056B983 /* week 3 homeworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "week 3 homeworkTests-Info.plist"; sourceTree = "<group>"; };
 		945018AC1969C90B0056B983 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		945018AE1969C90B0056B983 /* week_3_homeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = week_3_homeworkTests.m; sourceTree = "<group>"; };
+		945018B81969C9220056B983 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		945018B91969C9220056B983 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		945018BA1969C9220056B983 /* mainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				945018991969C90B0056B983 /* AppDelegate.m */,
 				9450189B1969C90B0056B983 /* Images.xcassets */,
 				945018901969C90B0056B983 /* Supporting Files */,
+				945018B81969C9220056B983 /* mainViewController.h */,
+				945018B91969C9220056B983 /* mainViewController.m */,
+				945018BA1969C9220056B983 /* mainViewController.xib */,
 			);
 			path = "week 3 homework";
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			files = (
 				945018941969C90B0056B983 /* InfoPlist.strings in Resources */,
 				9450189C1969C90B0056B983 /* Images.xcassets in Resources */,
+				945018BC1969C9220056B983 /* mainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				945018BB1969C9220056B983 /* mainViewController.m in Sources */,
 				9450189A1969C90B0056B983 /* AppDelegate.m in Sources */,
 				945018961969C90B0056B983 /* main.m in Sources */,
 			);
